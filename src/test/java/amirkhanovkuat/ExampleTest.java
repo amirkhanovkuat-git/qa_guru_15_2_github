@@ -9,11 +9,11 @@ public class ExampleTest  {
 
     @Test
     void exampleTest0() {
-        Assertions.assertFalse(2 <= 1);
+        Assertions.assertFalse(5 <= 1);
     }
 
     @Test
     void exampleTest1 () {
-        Assertions.assertTrue(3 >= 10);
+        Assertions.assertTrue(5 >= 10);
     }
 }
